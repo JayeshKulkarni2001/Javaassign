@@ -19,6 +19,7 @@ public class robert {
         System.out.println("sub3 marks out of 100"+"\n");
         double subject3 = sc.nextDouble();
         calc c1=new calc();
+        sc.close();
         c1.result(subject1, subject2, subject3);
     }
     
